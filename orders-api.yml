@@ -2,10 +2,10 @@ server:
   port: 7072
 spring:
   datasource:
-    driver-class-name: com.mysql.cj.jdbc.Driver
     url: jdbc:mysql://localhost:3306/ashokit_ecomm
     username: root
     password: mysql
+    driver-class-name: com.mysql.cj.jdbc.Driver
   jpa:
     hibernate:
       ddl-auto: update

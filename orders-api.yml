@@ -19,6 +19,9 @@ spring:
         url: http://localhost:1111/
 
 management:
+endpoint:
+    beans:
+      enabled: true
   endpoints:
     web:
       exposure:
